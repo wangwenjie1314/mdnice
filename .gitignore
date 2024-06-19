@@ -12,7 +12,7 @@
 
 ~*
 
-# build
+/build/
 /dist/
 /lib/
 /es/
