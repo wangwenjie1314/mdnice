@@ -9,7 +9,7 @@
 /report/
 /report.json
 /report.html
-
+node_modules
 ~*
 
 # build
