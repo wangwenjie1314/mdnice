@@ -193,6 +193,8 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
  * 居中 margin:0 auto;
  * 居左 margin:0 0;
 box-shadow:#84A1A8 0px 10px 15px;
+box-shadow: 0 5px 5px #999;
+  border: 3px solid #fff;
  */
 #nice img {
   border-radius: 10px;
@@ -200,8 +202,6 @@ box-shadow:#84A1A8 0px 10px 15px;
   margin: 0px auto;
   width: 100%;
   object-fit: cover;
-  box-shadow: 0 5px 5px #999;
-  border: 3px solid #fff;
 }
 
 /* 图片描述文字 */
