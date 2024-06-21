@@ -55,19 +55,26 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
   margin: 20px 10px 20px 0px;
 }
 
-/* 二级标题内容 */
 #nice h2 .content {
-  font-family:STHeitiSC-Light;
-  font-size: 22px;
-  color:#07C160;
-  font-weight:bolder;
-  display:inline-block;
-  padding-left:10px;
-  border-left:5px solid #07C160;
+  font-family: STHeitiSC-Light;
+  font-size: 18px;
+  color: #07C160;
+  font-weight: bolder;
+  display: inline-block;
+  padding-left: 10px;
 }
 
-/* 二级标题修饰 请参考有实例的主题 */
-#nice h2:after {
+#nice h2 .content::before {
+  content: ""; /* 伪元素必须有内容 */
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-top: 8px solid transparent; /* 顶部边框透明 */
+  border-bottom: 8px solid transparent; /* 底部边框透明 */
+  border-left: 8px solid #07C160; /* 左边框设置为您想要的三角颜色 */
+  vertical-align: middle; /* 确保三角形与文本垂直居中 */
+  margin-right: 10px; /* 可选，增加三角形与文本之间的间距 */
+  margin-left: -10px; /* 根据三角形大小调整，使三角形与文本对齐 */
 }
 
 /* 三级标题 */
