@@ -56,9 +56,8 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
 }
 
 #nice h2 .content {
-  font-family: STHeitiSC-Light;
   font-size: 18px;
-  color: #07C160;
+  color: #333;
   font-weight: bolder;
   display: inline-block;
   padding-left: 10px;
@@ -71,7 +70,7 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
   height: 0; 
   border-top: 8px solid transparent; /* 顶部边框透明 */
   border-bottom: 8px solid transparent; /* 底部边框透明 */
-  border-left: 8px solid #07C160; /* 左边框设置为您想要的三角颜色 */
+  border-left: 8px solid #ff2442; /* 左边框设置为您想要的三角颜色 */
   vertical-align: middle; /* 确保三角形与文本垂直居中 */
   margin-right: 10px; /* 可选，增加三角形与文本之间的间距 */
   margin-left: -10px; /* 根据三角形大小调整，使三角形与文本对齐 */
