@@ -6,11 +6,12 @@
  * 页边距 padding:30px;
  * 全文字体 font-family:ptima-Regular;
  * 英文换行 word-break:break-all;
-PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, PingFang SC, Cambria, Cochin, Georgia, Times, Times New Roman;
-"宋体", SimSun, Microsoft YaHei, PingFangSC-regular, serif, "PingFang SC","Hiragino Sans GB", Arial
+1、Optima, Microsoft YaHei, PingFangSC-regular, serif, "Microsoft YaHei","Helvetica Neue","PingFang SC","Hiragino Sans GB",Arial
+2、"宋体", SimSun, Microsoft YaHei, PingFangSC-regular, serif, "PingFang SC","Hiragino Sans GB", Arial
+3、system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
  */
  #nice {
-  font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
+  font-family: "宋体", SimSun, system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
 }
 
 /* 段落，下方未标注标签参数均同此处
@@ -19,7 +20,7 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
   margin: 10px 0;
   line-height:1.75;
   letter-spacing: 1.2px;
-  font-size: 17px;
+  font-size: 16px;
   word-spacing: 0;
   text-indent: 2em;
   color:#333;
@@ -67,8 +68,8 @@ PingFangSC-Light, Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, Pi
 #nice h2 .content::before {
   content: ""; /* 伪元素必须有内容 */
   display: inline-block;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 8px solid transparent; /* 顶部边框透明 */
   border-bottom: 8px solid transparent; /* 底部边框透明 */
   border-left: 8px solid #ff2442; /* 左边框设置为您想要的三角颜色 */
