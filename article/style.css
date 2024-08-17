@@ -9,9 +9,12 @@
 1、Optima, Microsoft YaHei, PingFangSC-regular, serif, "Microsoft YaHei","Helvetica Neue","PingFang SC","Hiragino Sans GB",Arial
 2、"宋体", SimSun, Microsoft YaHei, PingFangSC-regular, serif, "PingFang SC","Hiragino Sans GB", Arial
 3、system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
+4、Optima, Microsoft YaHei, PingFangSC-regular, serif, "Microsoft YaHei","Helvetica Neue","PingFang SC",Arial
+5、'Source Han Serif', 'Noto Serif CJK SC', Arial, sans-serif;
+6、PingFang SC,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
  */
  #nice {
-  font-family: "宋体", SimSun, system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif
+  font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
 /* 段落，下方未标注标签参数均同此处
